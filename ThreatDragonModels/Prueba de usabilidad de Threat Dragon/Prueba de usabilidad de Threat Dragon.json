@@ -2,24 +2,25 @@
   "version": "2.3.0",
   "summary": {
     "title": "Prueba de usabilidad de Threat Dragon",
-    "owner": "",
-    "description": "",
+    "owner": "Abelardo Hernández Cortizo",
+    "description": "Prueba de creación de un modelo de amenazas para comprobar el funcionamiento del programa",
     "id": 0
   },
   "detail": {
     "contributors": [],
     "diagrams": [
       {
-        "id": 0,
-        "title": "Nuevo diagrama STRIDE",
+        "id": 1,
+        "title": "Diagrama STRIDE",
         "diagramType": "STRIDE",
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.3.0",
-        "cells": []
+        "cells": [],
+        "description": "Prueba"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "",
     "threatTop": 0
   }
