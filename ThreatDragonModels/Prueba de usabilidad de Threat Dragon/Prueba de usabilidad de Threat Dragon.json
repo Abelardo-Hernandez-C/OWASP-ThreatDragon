@@ -102,41 +102,6 @@
             }
           },
           {
-            "shape": "edge",
-            "attrs": {
-              "line": {
-                "targetMarker": {
-                  "name": "block",
-                  "width": 12,
-                  "height": 8
-                }
-              }
-            },
-            "id": "bbdf53c6-3ad0-4a19-928d-ee6229b70fe4",
-            "zIndex": 0,
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "source": {
-              "cell": "ad8ccb3d-73cb-4e90-b5e6-e35d665141f4",
-              "port": "7bf3fa77-dc0d-4d59-be54-79a7ffa8bbdd"
-            },
-            "target": {
-              "x": 820,
-              "y": 360
-            }
-          },
-          {
             "position": {
               "x": 130,
               "y": 20
@@ -3247,6 +3212,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -3339,8 +3305,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 28
+            }
           },
           {
             "position": {
@@ -3363,6 +3328,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 29,
             "ports": {
               "groups": {
                 "top": {
@@ -3455,8 +3421,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 29
+            }
           },
           {
             "position": {
@@ -3479,6 +3444,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 30,
             "ports": {
               "groups": {
                 "top": {
@@ -3571,8 +3537,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 30
+            }
           },
           {
             "position": {
@@ -3595,6 +3560,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 31,
             "ports": {
               "groups": {
                 "top": {
@@ -3687,8 +3653,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 31
+            }
           },
           {
             "shape": "flow",
@@ -3706,6 +3671,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 32,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -3732,7 +3698,6 @@
               "cell": "48a5d72c-6e57-481a-aa31-15338a1ac615",
               "port": "74eeed2e-796d-482f-b291-2fd8bacfd697"
             },
-            "zIndex": 32,
             "vertices": [
               {
                 "x": 730,
@@ -3760,6 +3725,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 33,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -3785,8 +3751,7 @@
             "target": {
               "cell": "8869073d-a77a-4f19-9fad-7be04e69689b",
               "port": "7bf3fa77-dc0d-4d59-be54-79a7ffa8bbdd"
-            },
-            "zIndex": 33
+            }
           },
           {
             "shape": "flow",
@@ -3804,6 +3769,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 34,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -3830,7 +3796,6 @@
               "cell": "8869073d-a77a-4f19-9fad-7be04e69689b",
               "port": "6692fb2e-a09a-45c7-a478-9cfe6221f933"
             },
-            "zIndex": 34,
             "vertices": [
               {
                 "x": 560,
