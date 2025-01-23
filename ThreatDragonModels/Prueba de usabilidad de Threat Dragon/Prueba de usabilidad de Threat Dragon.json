@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "11ce2fd9-76e6-4f8c-bc2a-4e79ee232133",
             "zIndex": -1,
+            "id": "11ce2fd9-76e6-4f8c-bc2a-4e79ee232133",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Límite de confianza",
@@ -49,6 +49,7 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
+            "zIndex": -1,
             "id": "adcfd753-ef04-461a-aa9a-f48f4f1e327d",
             "data": {
               "type": "tm.BoundaryBox",
@@ -56,8 +57,7 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "zIndex": -1
+            }
           },
           {
             "position": {
@@ -70,6 +70,7 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
+            "zIndex": -1,
             "id": "565b98c4-855e-4205-8257-413eb6af6691",
             "data": {
               "type": "tm.BoundaryBox",
@@ -77,8 +78,7 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "zIndex": -1
+            }
           },
           {
             "position": {
@@ -91,6 +91,7 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
+            "zIndex": -1,
             "id": "2ce55e26-7bda-4b54-be4b-a16216634223",
             "data": {
               "type": "tm.BoundaryBox",
@@ -98,8 +99,7 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "zIndex": -1
+            }
           },
           {
             "position": {
@@ -122,6 +122,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -205,7 +206,6 @@
               ]
             },
             "id": "47851b11-8a6d-49fc-a37a-870d46e8e138",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Dispositivo Móvil",
@@ -238,6 +238,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -321,7 +322,6 @@
               ]
             },
             "id": "6316437f-b8ba-4af6-9d4a-2955d7c4ff40",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Ordenador",
@@ -354,6 +354,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -437,7 +438,6 @@
               ]
             },
             "id": "42c84a85-df5e-41ab-aced-3d27ed4dfe3c",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Aplicación",
@@ -473,6 +473,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -568,8 +569,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 4
+            }
           },
           {
             "position": {
@@ -592,6 +592,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -687,8 +688,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 5
+            }
           },
           {
             "position": {
@@ -711,6 +711,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -806,8 +807,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 6
+            }
           },
           {
             "position": {
@@ -830,6 +830,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -925,8 +926,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 7
+            }
           },
           {
             "position": {
@@ -949,6 +949,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -1044,8 +1045,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 8
+            }
           },
           {
             "shape": "flow",
@@ -1203,7 +1203,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Envía datos \na la red",
+              "name": "Envía datos \na la red encriptados",
               "description": "El kernel usa la interfaz de red para enviar y recibir datos de otros dispositivos",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1215,7 +1215,7 @@
               "threats": []
             },
             "labels": [
-              "Envía datos \na la red"
+              "Envía datos \na la red encriptados"
             ],
             "id": "39f29abc-3afe-437d-baca-58d2a69a2d0b",
             "source": {
@@ -1223,7 +1223,13 @@
             },
             "target": {
               "cell": "036c8925-fa48-4935-bd21-20122e5786b1"
-            }
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 230
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1484,6 +1490,122 @@
             }
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Frontera de confianza",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Frontera de confianza"
+            ],
+            "id": "a43f3102-a61b-4b95-b52a-d5f7edd5661c",
+            "source": {
+              "x": -10,
+              "y": 80
+            },
+            "target": {
+              "x": -10,
+              "y": 90
+            },
+            "vertices": [
+              {
+                "x": -10,
+                "y": 50
+              },
+              {
+                "x": 80,
+                "y": -30
+              },
+              {
+                "x": 360,
+                "y": -30
+              },
+              {
+                "x": 400,
+                "y": 170
+              },
+              {
+                "x": 360,
+                "y": 270
+              },
+              {
+                "x": 110,
+                "y": 330
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Trust Boundary"
+                  }
+                }
+              }
+            ],
+            "id": "d5685bc0-83cc-42cf-bacd-80226854a4c3",
+            "source": {
+              "x": 1260,
+              "y": 390
+            },
+            "target": {
+              "x": 1260,
+              "y": 390
+            },
+            "vertices": [
+              {
+                "x": 1000,
+                "y": 330
+              },
+              {
+                "x": 1000,
+                "y": 0
+              },
+              {
+                "x": 1320,
+                "y": -30
+              },
+              {
+                "x": 1400,
+                "y": 330
+              },
+              {
+                "x": 1350,
+                "y": 400
+              }
+            ]
+          },
+          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1556,6 +1678,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1639,7 +1762,6 @@
               ]
             },
             "id": "0ba04ee4-234e-4b19-b0c1-732277b6d4a2",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Nube externa",
@@ -1672,6 +1794,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1755,7 +1878,6 @@
               ]
             },
             "id": "663d713a-c950-4838-a239-fa7a1176f96e",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Red telefónica",
@@ -1788,6 +1910,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1871,7 +1994,6 @@
               ]
             },
             "id": "bf854492-e677-4802-820e-5e64560c60d6",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "servidor de \nidentidades",
@@ -1904,6 +2026,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1996,8 +2119,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
@@ -2015,8 +2137,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "c3e78f61-5813-450d-acee-3d2fa0dad5de",
             "zIndex": 15,
+            "id": "c3e78f61-5813-450d-acee-3d2fa0dad5de",
             "data": {
               "type": "tm.Text",
               "name": "Servidores de mensajería instantánea",
@@ -2044,6 +2166,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2127,7 +2250,6 @@
               ]
             },
             "id": "dde5ef8a-10a3-48a8-8d22-8f22f3fff22c",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
               "name": "Punto de \nacceso Wi-Fi",
@@ -2160,6 +2282,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2252,8 +2375,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 17
+            }
           },
           {
             "position": {
@@ -2271,13 +2393,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 21,
             "id": "5f83a894-766e-48a6-889e-fede324d441b",
             "data": {
               "type": "tm.Text",
               "name": "Puntos de acceso",
               "hasOpenThreats": false
-            },
-            "zIndex": 21
+            }
           },
           {
             "position": {
@@ -2300,6 +2422,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -2392,8 +2515,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 22
+            }
           },
           {
             "position": {
@@ -2416,6 +2538,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -2508,8 +2631,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 23
+            }
           },
           {
             "position": {
@@ -2527,13 +2649,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 24,
             "id": "927375f5-21b4-49cd-b718-0d15c0fa43e8",
             "data": {
               "type": "tm.Text",
               "name": "Proveedores de internet",
               "hasOpenThreats": false
-            },
-            "zIndex": 24
+            }
           },
           {
             "position": {
@@ -2556,6 +2678,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -2648,8 +2771,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 25
+            }
           },
           {
             "position": {
@@ -2667,13 +2789,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 26,
             "id": "5a051b10-87c2-4589-b712-8db38306bc27",
             "data": {
               "type": "tm.Text",
               "name": "Poder judicial",
               "hasOpenThreats": false
-            },
-            "zIndex": 26
+            }
           }
         ],
         "description": "Prueba de ejemplo del STRIDE"
