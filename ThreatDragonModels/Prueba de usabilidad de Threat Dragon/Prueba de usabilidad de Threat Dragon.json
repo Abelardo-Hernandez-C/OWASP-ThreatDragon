@@ -1792,56 +1792,6 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Mensaje descrifrado",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Mensaje descrifrado"
-            ],
-            "id": "1305bb37-92ed-4243-83d5-5031d1faed06",
-            "source": {
-              "cell": "ad8ccb3d-73cb-4e90-b5e6-e35d665141f4",
-              "port": "7bf3fa77-dc0d-4d59-be54-79a7ffa8bbdd"
-            },
-            "target": {
-              "cell": "8795be5e-6899-479a-9944-cf5bc6eb630f",
-              "port": "74eeed2e-796d-482f-b291-2fd8bacfd697"
-            },
-            "vertices": [
-              {
-                "x": 940,
-                "y": 410
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
                   "name": "block"
                 },
                 "strokeDasharray": null
@@ -2022,6 +1972,106 @@
               {
                 "x": 1130,
                 "y": 400
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Internet",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "d99caffb-d544-44c3-a7c2-9841b031af7a",
+            "source": {
+              "cell": "ad8ccb3d-73cb-4e90-b5e6-e35d665141f4",
+              "port": "fb3163bf-ea82-4dc4-ad2c-71f84370bc5a"
+            },
+            "target": {
+              "cell": "5bf4ec71-9d7c-4671-a5bc-ebf098421f35",
+              "port": "74eeed2e-796d-482f-b291-2fd8bacfd697"
+            },
+            "vertices": [
+              {
+                "x": 712.5,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Mensaje descrifrado",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Mensaje descrifrado"
+            ],
+            "id": "1305bb37-92ed-4243-83d5-5031d1faed06",
+            "source": {
+              "cell": "208f693c-3d9b-41c0-9a2a-49359e738b85",
+              "port": "6692fb2e-a09a-45c7-a478-9cfe6221f933"
+            },
+            "target": {
+              "cell": "8795be5e-6899-479a-9944-cf5bc6eb630f",
+              "port": "74eeed2e-796d-482f-b291-2fd8bacfd697"
+            },
+            "vertices": [
+              {
+                "x": 900,
+                "y": 670
               }
             ]
           },
